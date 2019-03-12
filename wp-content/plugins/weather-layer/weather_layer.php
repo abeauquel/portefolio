@@ -432,7 +432,7 @@ function weather_layer_getWeatherLayer ($args)
 	}
 	
 	if (empty($retour))
-        $retour = 'Pas de météo trouvée pour '.$args['city'] . ' en ' . $args['country']; // modifié par Nadine Giasson St-Amand nadineducegep@gmail.com 2019/03/08
+        $retour = 'Pas de météo trouvée pour : '.$args['city'] . ' en ' . $args['country']; // modifié par Nadine Giasson St-Amand nadineducegep@gmail.com 2019/03/08
 	return $retour;
 }
 
