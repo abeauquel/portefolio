@@ -33,7 +33,7 @@ return apply_filters(
 		),
 		'email'     => array(
 			'name'  => 'email',
-			'label' => __( 'email', 'scriptless-social-sharing' ), 
+			'label' => __( 'Courriel', 'scriptless-social-sharing' ), // Traduit en fr par Alexandre Beauquel
 			'order' => 0,
 		),
 		'reddit'    => array(
